@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxury Home Decor | Bespoke Collection</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #0f0f0f;
+            color: #f4f4f4;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1350&q=80');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .tagline {
+            font-size: 14px;
+            letter-spacing: 3px;
+            color: #d4af37;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 42px;
+            color: #ffffff;
+            margin-bottom: 20px;
+            max-width: 800px;
+        }
+        p {
+            font-size: 16px;
+            color: #cccccc;
+            margin-bottom: 30px;
+            max-width: 600px;
+        }
+        .cta-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 15px 35px;
+            font-size: 16px;
+            font-weight: 500;
+            text-decoration: none;
+            border-radius: 30px;
+            box-shadow: 0 4px 15px rgba(37, 211, 102, 0.4);
+            transition: 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .cta-btn:hover {
+            background-color: #20ba5a;
+            transform: translateY(-2px);
+        }
+        .features {
+            display: flex;
+            justify-content: space-around;
+            background-color: #1a1a1a;
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 1px solid #333;
+        }
+        .feature-box h3 {
+            color: #d4af37;
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+        .feature-box p {
+            font-size: 14px;
+            margin: 0;
+        }
+        .section-title {
+            text-align: center;
+            padding: 60px 20px 20px;
+            font-family: 'Playfair Display', serif;
+            font-size: 32px;
+            color: #d4af37;
+        }
+        .products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
+            padding: 20px 40px 60px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .product-card {
+            background-color: #1a1a1a;
+            border-radius: 10px;
+            overflow: hidden;
+            border: 1px solid #333;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .product-card img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+        }
+        .product-card h4 {
+            font-family: 'Playfair Display', serif;
+            font-size: 20px;
+            margin: 15px 0 10px;
+            color: #fff;
+        }
+        .product-card p {
+            font-size: 14px;
+            padding: 0 15px;
+            margin-bottom: 20px;
+        }
+        .wa-small-btn {
+            background-color: #25D366;
+            color: white;
+            padding: 10px 20px;
+            font-size: 14px;
+            text-decoration: none;
+            border-radius: 20px;
+            display: inline-block;
+            font-weight: 500;
+        }
+        footer {
+            text-align: center;
+            padding: 30px;
+            background-color: #080808;
+            color: #777;
+            font-size: 13px;
+        }
+        @media(max-width: 768px) {
+            h1 { font-size: 30px; }
+            .features { flex-direction: column; gap: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <span class="tagline">тЬи Exclusive Luxury Collection 2026</span>
+        <h1>Apne Ghar Ko Dein Ek Regal aur Royal Touch</h1>
+        <p>Bespoke handcrafted home decor pieces jo aapke living space ki khubsurati ko agle level par le jayein.</p>
+        <a href="https://wa.me/918955550232?text=Hi,%20mujhe%20apke%20home%20decor%20collection%20ka%20katalog%20chahiye." class="cta-btn" target="_blank">
+            ЁЯТм WhatsApp Par Katalog Dekhein
+        </a>
+    </header>
+
+    <!-- Trust Bar -->
+    <section class="features">
+        <div class="feature-box">
+            <h3>ЁЯТО 100% Handcrafted</h3>
+            <p>Master artisans рджреНрд╡рд╛рд░рд╛ рддреИрдпрд╛рд░ рдХрд┐рдП рдЧрдП рдкреАрд╕</p>
+        </div>
+        <div class="feature-box">
+            <h3>ЁЯЪЪ Pan-India Shipping</h3>
+            <p>рд╕реБрд░рдХреНрд╖рд┐рдд рдФрд░ insured doorstep delivery</p>
+        </div>
+        <div class="feature-box">
+            <h3>ЁЯСС Limited Edition</h3>
+            <p>Unique designs рдЬреЛ рд╣рд░ рдЬрдЧрд╣ рдирд╛ рдорд┐рд▓реЗрдВ</p>
+        </div>
+    </section>
+
+    <!-- Product Showcase -->
+    <h2 class="section-title">Featured Masterpieces</h2>
+    <div class="products">
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1581783342308-f792dbdd27c5?auto=format&fit=crop&w=600&q=80" alt="Vase">
+            <h4>Royal Statement Sculpture</h4>
+            <p>Pure premium finish ke sath hand-carved masterpiece jo drawing room ki jaan ban jaye.</p>
+            <a href="https://wa.me/918955550232?text=Hi,%20mujhe%20Royal%20Statement%20Sculpture%20ka%20price%20aur%20details%20chahiye." class="wa-small-btn" target="_blank">WhatsApp Par Price Poochein</a>
+        </div>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1540932239986-30128078f3c5?auto=format&fit=crop&w=600&q=80" alt="Chandelier">
+            <h4>Modern Designer Light</h4>
+            <p>Warm ambient lighting jo aapke ghar ke har kone ko rich aesthetic feel degi.</p>
+            <a href="https://wa.me/918955550232?text=Hi,%20mujhe%20Modern%20Designer%20Light%20ka%20price%20aur%20details%20chahiye." class="wa-small-btn" target="_blank">WhatsApp Par Price Poochein</a>
+        </div>
+        <div class="product-card">
+            <img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80" alt="Wall Art">
+            <h4>Luxury Abstract Wall Art</h4>
+            <p>Statement wall piece jo modern aur traditional dono interiors ke liye perfect hai.</p>
+            <a href="https://wa.me/918955550232?text=Hi,%20mujhe%20Luxury%20Abstract%20Wall%20Art%20ka%20price%20aur%20details%20chahiye." class="wa-small-btn" target="_blank">WhatsApp Par Price Poochein</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>┬й 2026 Luxury Home Decor. All Rights Reserved. | Direct WhatsApp Support: +91 8955550232</p>
+    </footer>
+
+</body>
+</html>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1081592937799853');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1081592937799853&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
